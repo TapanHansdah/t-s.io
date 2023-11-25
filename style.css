@@ -17,8 +17,8 @@ body, html {
 }
 
 article {
-    max-width: 300px; /* Adjust the maximum width of the article */
-    margin: 0 auto; /* Center the article within the container */
+    max-width: 800px; /* Adjust the maximum width of the article */
+    margin: 5px; /* Center the article within the container */
 }
 
 /* Add more styles for your content as needed */
