@@ -1,12 +1,10 @@
-window.addEventListener('scroll', function() {
-  const scrollY = window.scrollY;
-  const bodyElement = document.body;
+document.addEventListener("DOMContentLoaded", function () {
+    var container = document.querySelector(".gradient-container");
 
-  if (scrollY > 100) { // Change threshold as needed
-    bodyElement.classList.remove('light-background');
-    bodyElement.classList.add('dark-background');
-  } else {
-    bodyElement.classList.add('light-background');
-    bodyElement.classList.remove('dark-background');
-  }
+    window.addEventListener("scroll", function () {
+        var scrollPosition = window.scrollY;
+        var opacity = 1 - scrollPosition / 500; // Adjust the divisor to control the speed of the change
+
+        container.style.background = `linear-gradient(to right, rgba(255, 126, 95, ${opacity}), rgba(254, 180, 123, ${opacity}))`;
+    });
 });
