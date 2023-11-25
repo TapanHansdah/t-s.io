@@ -1,9 +1,7 @@
-body {
+.light-background {
   background: linear-gradient(to bottom, #f0f0f0 0%, #cccccc 100%);
-  transition: background-color 0.5s ease-in-out;
 }
 
 .dark-background {
   background: linear-gradient(to bottom, #cccccc 0%, #333333 100%);
-  transition: background-color 0.5s ease-in-out;
 }
