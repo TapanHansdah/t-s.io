@@ -5,6 +5,3 @@ window.addEventListener('scroll', function() {
     document.body.classList.remove('dark-background');
   }
 });
-.dark-background {
-  background: linear-gradient(to bottom, #cccccc 0%, #333333 100%);
-}
