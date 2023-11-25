@@ -10,18 +10,18 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    text-align: justify; /* Align text in the justified manner */
+    background: linear-gradient(to right, #fff, #000);
     transition: background 0.5s ease-in-out;
+    overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+article {
+    max-width: 800px; /* Adjust the maximum width of the article */
+    margin: 0 auto; /* Center the article within the container */
 }
 
 /* Add more styles for your content as needed */
-h1 {
-    color: white;
+h1, p {
+    color: black; /* Text color for the article */
 }
-
-p {
-    color: white;
-}
-
-/* Adjust the gradient colors as needed */
