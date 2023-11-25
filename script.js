@@ -1,7 +1,12 @@
 window.addEventListener('scroll', function() {
-  if (window.scrollY > 100) {
-    document.body.classList.add('dark-background');
+  const scrollY = window.scrollY;
+  const bodyElement = document.body;
+
+  if (scrollY > 100) { // Change threshold as needed
+    bodyElement.classList.remove('light-background');
+    bodyElement.classList.add('dark-background');
   } else {
-    document.body.classList.remove('dark-background');
+    bodyElement.classList.add('light-background');
+    bodyElement.classList.remove('dark-background');
   }
 });
