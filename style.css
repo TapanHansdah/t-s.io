@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
 }
 
 .gradient-container {
@@ -17,8 +17,8 @@ body, html {
 }
 
 article {
-    max-width: 1024px; /* Adjust the maximum width of the article as needed */
-    margin: 0px;
+    max-width: auto; /* Adjust the maximum width of the article as needed */
+    margin: auto;
     position: relative;
     z-index: 1;
 }
