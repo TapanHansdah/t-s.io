@@ -17,8 +17,8 @@ body, html {
 }
 
 article {
-    max-width: 600px; /* Adjust the maximum width of the article as needed */
-    margin: 70px;
+    max-width: 800px; /* Adjust the maximum width of the article as needed */
+    margin: 0px;
     position: relative;
     z-index: 1;
 }
